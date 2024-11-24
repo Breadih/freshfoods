@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+    font-family: Montserrat;
+    background-color: #e0e0e0 ;
+}
+
+.MainMenu {
+    background-color: #c1c2a0;
+    height: 110px;
+    display: grid;
+    grid-template-columns: 2% 7% 19% auto 30% 10% 2%;
+    position: sticky;
+    top: -20;
+    z-index: 2;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+
+}
+
+.M-2 {
+    display: flex;
+    align-items: center;
+}
+
+.Logo-Text {
+    font-family: Georgia;
+    font-size: 50px;
+    margin: 0;
+    font-weight: 600;
+    color: #000;
+}
+
+.M-3 {
+    display: flex;
+    align-items: center; /* Vertically centers the links */
+    justify-content: center; /* Horizontally centers the links within the grid cell */
+    gap: 15px; /* Adds spacing between the links */
+}
+
+.M-3 > a {
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none; /* Removes underline */
+    color: #000; /* Adjust the color as desired */
+    padding: 5px 10px; /* Optional: Adds some clickable area */
+    border-radius: 5px; /* Optional: Adds rounded corners for hover effect */
+    transition: background-color 0.15s;
+}
+
+.M-3 > a:hover {
+    background-color: #ddd; /* Optional: Adds a hover effect */
+    color: #333; /* Optional: Adjust text color on hover */
+}
+
+.M-4 {
+    display: flex;
+    align-items: center; /* Vertically centers the button */
+    justify-content: center; /* Horizontally centers the button */
+}
+
+.button-started {
+    padding: 15px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer; /* Adds a pointer cursor on hover */
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.button-started:hover {
+    background-color: #555; /* Changes background color on hover */
+    transform: scale(1.05); /* Slightly enlarges button on hover */
+}
+
+.Container-Banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.Text-Banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    font-size: 26px;
+}
+
+.Text-Banner > p {
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.InfoBoard {
+    display: grid;
+    grid-template-columns: 25% auto auto 25%;
+    text-align: center;
+}
+
+.Info-T1 {
+    margin: 0px 0px 3px 0px;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.Info-T2 {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.team-grid > div {
+    padding: 15px;
+    margin: 5px;
+    background-color: #c5c3c3;
+    border-radius: 15px;
+}
+
+.Team-Header {
+    font-size: 24px;
+    margin: 0px 0px 3px 0px;
+    font-weight: 700;
+}
+
+.Team-Player {
+    margin: 12px 0px 3px 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Socials-Grid {
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+}
+
+.Socials-Grid-1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Interact_Link {
+    text-decoration: 1px underline #000;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}

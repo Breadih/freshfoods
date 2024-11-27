@@ -27,7 +27,7 @@ body {
 }
 
 .Logo-Text {
-    font-family: Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     margin: 0;
     font-weight: 600;

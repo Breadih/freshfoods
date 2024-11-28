@@ -5,17 +5,31 @@ body {
 }
 
 .MainMenu {
-    background-color: #c1c2a0;
+    background-color: #c1c2a0
+}
+
+.MainMenu-1 {
     height: 110px;
-    display: grid;
-    grid-template-columns: 2% 7% 19% auto 30% 10% 2%;
+    display: flex;
     position: sticky;
-    top: -20;
+    top: 0;
     z-index: 2;
+    justify-content: space-around;
+}
+
+.Mobile-Setting {
+    background-color: #c1c2a0;
+    border: 2.25px #000 solid;
+    font-size: 18px;
+    width: 97%;
+    margin: auto;
+    border-radius: 13px;
+    display: none;
 }
 
 .logo {
-    width: 100%;
+    width: 120px;
+    min-width: none;
     height: auto;
     object-fit: contain;
 
@@ -23,7 +37,8 @@ body {
 
 .M-2 {
     display: flex;
-    align-items: center;
+    align-items:center;
+    text-align: right;
 }
 
 .Logo-Text {
@@ -44,7 +59,7 @@ body {
 .M-3 > a {
     font-family: Montserrat;
     font-size: 18px;
-    text-align: center;
+    text-align: right;
     text-decoration: none; /* Removes underline */
     color: #000; /* Adjust the color as desired */
     padding: 5px 10px; /* Optional: Adds some clickable area */
@@ -96,9 +111,16 @@ body {
     font-size: 26px;
 }
 
-.Text-Banner > p {
+.Title-Banner {
     font-size: 46px;
     font-weight: 800;
+    margin: 0;
+}
+
+.Desc-Banner {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0;
 }
 
 .InfoBoard {
@@ -159,3 +181,29 @@ body {
     font-weight: 600;
     font-size: 18px;
 }
+
+@media screen and (max-width: 760px) {
+    .Mobile-Setting {
+        display: block;
+    }
+
+    .M-3,.M-4 {
+        display: none;
+    }
+
+    .team-grid {
+        grid-template-columns: auto auto;
+    }
+
+    .Title-Banner {
+        font-size: 36px;
+        font-weight: 800;
+        margin: 0;
+    }
+    
+    .Desc-Banner {
+        font-size: 17px;
+        font-weight: 400;
+        margin: 0;
+    }
+  }

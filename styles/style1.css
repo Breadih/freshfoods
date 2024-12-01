@@ -248,10 +248,6 @@ body {
         font-size: 36px;
     }
 
-    .Image-Banner {
-        width: 150%;
-    }
-
     .InfoBoard {
         grid-template-columns: 15% auto auto 15%;
     }

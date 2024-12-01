@@ -5,13 +5,13 @@ body {
 }
 
 .MainMenu {
-    background-color: #c1c2a0
+    background-color: #c1c2a0;
+    padding: 0px 0px 5px 0px;
 }
 
 .MainMenu-1 {
     height: 110px;
     display: flex;
-    position: sticky;
     top: 0;
     z-index: 2;
     justify-content: space-around;
@@ -25,6 +25,7 @@ body {
     margin: auto;
     border-radius: 13px;
     display: none;
+    cursor: pointer;
 }
 
 .logo {
@@ -43,7 +44,7 @@ body {
 
 .Logo-Text {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 300%;
     margin: 0;
     font-weight: 600;
     color: #000;
@@ -123,6 +124,22 @@ body {
     margin: 0;
 }
 
+.Banner-Button {
+    background-color: #f1f1f1;
+    color: none;
+    border: 3px solid black;
+    padding: 12px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Montserrat;
+    border-radius: 6px;
+    margin: 12px;
+}
+
+.Image-Banner {
+    width: 100%;
+}
+
 .InfoBoard {
     display: grid;
     grid-template-columns: 25% auto auto 25%;
@@ -139,6 +156,10 @@ body {
     margin: 0px;
     font-weight: 500;
     font-size: 18px;
+}
+
+.Team-Title {
+    font-size: 48px; font-weight: 700; text-align: center; margin: 36px 0px 4px 0px;
 }
 
 .team-grid {
@@ -209,5 +230,29 @@ body {
 
     .Socials-Grid-1 {
         grid-template-columns: auto;
+    }
+
+    .Logo-Text {
+        font-size: 250%;
+    }
+
+    .Info-T1 {
+        font-size: 40px;
+    }
+
+    .Info-T2 {
+        font-size: 18px;
+    }
+
+    .Team-Title {
+        font-size: 36px;
+    }
+
+    .Image-Banner {
+        width: 150%;
+    }
+
+    .InfoBoard {
+        grid-template-columns: 15% auto auto 15%;
     }
   }

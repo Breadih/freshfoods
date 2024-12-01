@@ -251,4 +251,12 @@ body {
     .InfoBoard {
         grid-template-columns: 15% auto auto 15%;
     }
+
+    .Image-Banner {
+        width: 140%;
+    }
+
+    .Container-Banner {
+        overflow: hidden;
+    }
   }
